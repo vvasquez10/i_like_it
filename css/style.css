@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin-inline: 200px;
+}
+
+.card{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: solid;
+    margin: 5%;
+    margin-right: 40%;    
+}
+
+.card-header{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    align-items: center;
+}
+
+.card-main{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.name{
+    flex: 2;
+}
+.likes{
+    display: flex;
+    flex: 1;
+    margin-right: 7px;
+    align-items: center;
+    justify-content: end;
+}
+.like-button{    
+    flex: 1;   
+    margin-left: 30px;
+}
